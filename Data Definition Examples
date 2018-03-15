@@ -1,0 +1,22 @@
+#Ice_Coverage Examples
+
+#from test file 1
+IC1_1= Ice_Coverage(1968,21)
+IC1_2= Ice_Coverage(1985,27)
+IC1_3= Ice_Coverage(1986,21)
+IC1_4= Ice_Coverage(1987,26)
+IC1_5= Ice_Coverage(1988,23)
+IC1_6= Ice_Coverage(1989,20)
+IC1_7= Ice_Coverage(2014,12)
+IC1_8= Ice_Coverage(2015,18)
+
+#from test file 2
+IC2_1= Ice_Coverage(1968,21)
+IC2_2= Ice_Coverage(1969,25)
+IC2_3= Ice_Coverage(2002,15)
+IC2_4= Ice_Coverage(2015,18)
+
+#List[Ice_Coverage] Examples
+L0 = []
+L1 = [IC1_1,IC1_2,IC1_3,IC1_4,IC1_5,IC1_6,IC1_7,IC1_8]  # test file 1
+L2 = [IC2_1,IC2_2,IC2_3,IC2_4]  # test file 2
